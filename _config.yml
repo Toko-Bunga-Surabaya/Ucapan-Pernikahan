@@ -1,0 +1,22 @@
+# Site settings
+title: Toko Bunga Surabaya
+subtitle: "Papan Bunga Surabaya"
+header-img: img/home-bg.jpg
+image: img/home-bg.jpg
+copyright_name: Bunga Buket
+description: "Papan Bunga Surabaya Murah Online 24 Jam Jawa Timur."
+url: "https://www.bungabuket.com/toko-bunga-surabaya-jual-buket-mawar/"
+author: Bunga Buket
+twitter_username: AsryFlorist
+github_username:  bungaasryflorist
+facebook_username:  asryflorist
+email_username:  admin@asryflorist.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed, jekyll-sitemap]
